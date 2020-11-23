@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box; /* para mantener el tamaño de cajas incluyendo padding y margin */
+}
+body {
+    background-color: white;
+    width: 100%;
+    margin: 10px auto; /* centrar la página */
+    padding:25px;
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+    /*Si quiero poner sombras a los textos: text-shadow*/
+    /*box-shadow: 2px 2px 0 #e7511e,     
+                6px 6px 2px #0c3183;    /* Sombra 2 */
+    /*box-shadow: 5px 5px 0 lightgray;*/
+}
+h1 {
+    /*background-color: #0c3183;*/
+    font-size: 3.0em;
+    text-align: center;
+    /*padding: 25px;*/
+    margin: 50px 0;
+    color: #0c3183;
+}
+
+.h1plus {
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.0em;
+    color: #e7511e;
+
+}
+
+h3 {
+    font-size: 1.6em;
+    box-shadow: 5px 5px 0 lightgray;
+    /*border: 1px solid gray;*/
+}
+h4 {
+
+    font-size: 2.0em;
+    /*color: #0c3183;*/
+
+}
+
+p {
+    font-size: 2em;
+    text-align: justify;
+}
+select {
+    width: auto;
+    border: 1px solid gray;
+    font-size: 2em;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+input[type=text] {
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 3em;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid gray;
+    font-size: 3em;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+input[type=email] {
+    width: 50%;
+    border: 1px solid gray;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=number] {
+    width: 50%;
+    border: 1px solid gray;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+input[type=date] {
+    width: 50%;
+    border: 1px solid gray;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Aumentar de tamaño el radio en un formulario  
+
+ Fin Aumentar de tamaño el radio en un formulario */  
+label {
+    font-size: 1.1em;
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.numerogrande {
+
+    font-size: 2.0em;
+    color: green;
+    /*border:1px solid black;
+    background-color: greenyellow;*/
+
+}
+.mostraruno {
+    width: 50%;
+    background-color: azure;
+    margin: 0 auto; /* centrar la página */
+    border: 1px solid grey;
+
+}
+#divformulario {
+    width: 100%;
+    /*background-color: azure;*/
+    /*opacity: 0.3;*/
+    margin: 10px auto; /* centrar la página */
+    padding: 10px;
+    /*margin: 5px;*/
+    overflow: hidden;
+}
+
+#terminos {
+    font-size: 0.8em;
+}
+.rojo {
+    color: red;
+}
+
+input:invalid {
+    background: #F7F2F2
+}
+
+input[type=submit] {
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+    background: #e7511e;
+    color: white;
+    border-radius: 10px;
+}
+input[type=submit]:hover {
+    background-color: #e88c6c;
+    cursor: pointer;
+} 
+input[type=reset] {
+    width: 48%;
+    border: 1px solid gray;
+    font-size: 1.1em;
+    padding: 20px;
+    margin: 5px;
+    background: #e7511e;
+    color: white;
+    border-radius: 10px;
+}
+input[type=reset]:hover {
+    background-color: #e88c6c;
+    cursor: pointer;
+} 
+
+.comenzar {
+    width: 100%;
+    background-color: #0c3183;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+/*a:link, a:visited {
+        width: 100%;
+        background-color: #0c3183;
+        font-size: 2em;
+        color: white;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+}
+
+a:hover, a:active {
+        background-color: #375eb5;
+} */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: left;
+    font-size: 1.5em;
+    padding: 8px;
+}
+th {
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.imagen1 {
+    padding: 15px 25px;
+}
+#imagen
+{
+    width: auto;
+    text-align: center;
+}
+
+ul, ol {
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 10px 5px;
+    margin: 0 auto;
+    color: black;
+    margin: 10px;
+
+}
+li {
+    font-size: 1.5em;
+    padding: 10px 5px;
+    margin: 0 auto;
+    color: black;
+    margin: 10px;
+
+}
+
+.respuestaerror {
+    width: 50%;
+    float: center;
+    color: white;
+    background: red;
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 10px;
+    transition: all 500ms;
+    border-radius: 5px;
+}
+
+.cajaradio {
+    margin: 0 auto;
+    width: 100%;
+    float: center;
+    font-size: 2em;
+    padding: 20px;
+    color: #0c3183;
+}
+.mostrarradio {
+    padding-left: 30px;
+}
+
+
+.resultadoko {
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+.resultadook {
+    color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
